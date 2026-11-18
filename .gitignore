@@ -1,0 +1,31 @@
+# Environnement Python et caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/
+.pip-temp/
+.ipynb_checkpoints/
+
+# Paramètres locaux et secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.pem
+*.key
+
+# Données générées et documents privés
+data/processed/
+Rapport.pdf
+MaintiDoc_Guide_Comprehension.pdf
+*.safetensors
+*.gguf
+*.dump
+*.bak
+
+# Fichiers locaux
+.vscode/
+.DS_Store
+Thumbs.db
